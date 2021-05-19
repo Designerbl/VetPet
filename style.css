@@ -71,8 +71,16 @@ h1:hover{
 .sobaken{
   position: absolute;
 
-  right: 0%;
-  top: 10%;
+  right: 20%;
+  bottom: 19%;
+}
+
+.wave{
+  position: absolute;
+
+  right: 0;
+  bottom: 0;
+  
 }
 
 .nav-line{
@@ -85,10 +93,16 @@ h1:hover{
   line-height: 18px;
 }
 
-@media screen and (max-width: 1199px){
+@media screen and (max-width: 1399px){
   .sobaken{
     position: absolute;
-    right: 8%;
-    top: 10%;
+    right: 5%;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .sobaken{
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
