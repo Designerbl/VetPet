@@ -59,7 +59,7 @@ h1:hover{
 /* Шапка */
 
 .header-background{
-  background-image: url(/img/Background-background.png);
+  background-image: url(./img/Background-background.png);
   background-repeat: no-repeat;
   background-position-x: center;
 
@@ -71,7 +71,7 @@ h1:hover{
 .sobaken{
   position: absolute;
 
-  right: 20%;
+  right: 17%;
   bottom: 19%;
 }
 
@@ -103,6 +103,6 @@ h1:hover{
 @media screen and (max-width: 991px){
   .sobaken{
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
   }
 }
