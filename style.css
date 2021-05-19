@@ -12,9 +12,6 @@ body{
   margin: 0;
 
   -webkit-font-smoothing: antialiased;
-
-
-  background: black;
 }
 
 /* Цвета */
@@ -40,10 +37,10 @@ a:hover{
 }
 
 .header-background{
-  background-image: url(./img/Background.svg) no-repeat;
-  background-size: cover;
+  background-image: url(/img/Background.png);
+  background-repeat: no-repeat;
   background-position: center;
-
+  
   height: 863px;
 }
 
