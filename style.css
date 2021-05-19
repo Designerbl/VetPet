@@ -14,15 +14,7 @@ body{
   -webkit-font-smoothing: antialiased;
 }
 
-/* Цвета */
 
-.color-white{
-  color: white;
-}
-
-.color-blue{
-  color: #00BBFF;
-}
 
 a{
   text-decoration: none;
@@ -34,14 +26,6 @@ a{
 
 a:hover{
   color: white;
-}
-
-.header-background{
-  background-image: url(/img/Background.png);
-  background-repeat: no-repeat;
-  background-position-x: center;
-
-  height: 900px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -57,10 +41,38 @@ h1{
   transition: 0.4s;
 
   letter-spacing: 0.025em;
-  }
+}
 
 h1:hover{
   transform: scale(1.1);
+}
+
+/* Цвета */
+.color-white{
+  color: white;
+}
+
+.color-blue{
+  color: #00BBFF;
+}
+
+/* Шапка */
+
+.header-background{
+  background-image: url(/img/Background-background.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+
+  position: relative;
+
+  height: 863px;
+}
+
+.sobaken{
+  position: absolute;
+
+  right: 0%;
+  top: 10%;
 }
 
 .nav-line{
@@ -73,3 +85,10 @@ h1:hover{
   line-height: 18px;
 }
 
+@media screen and (max-width: 1199px){
+  .sobaken{
+    position: absolute;
+    right: 8%;
+    top: 10%;
+  }
+}
