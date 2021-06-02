@@ -101,9 +101,7 @@ h1:hover{
 
 /* Иконка скролла */
 .icon-scroll {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  margin: 0 calc(50% - 1140px / 2);
   width: 1em;
   height: 3.125em;
   transform: translateX(-50%) scale(2);
