@@ -52,6 +52,11 @@ h2{
   line-height: 70px;
 }
 
+/* Кастомные марджины/паддинги */
+.mt-6{
+  margin-top: 100px;
+}
+
 /* Цвета */
 .color-white{
   color: white;
@@ -191,6 +196,50 @@ h2{
   50%  { opacity: .5; }
   100% { opacity: 1; }
 }
+
+.card{
+  background: linear-gradient(116.59deg, #0DBAF9 0%, #38CAFF 100%);
+  border-radius: 10px;
+  width: 424px;
+  height: 250px;
+  padding: 32px;
+}
+
+.discount{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #FFFFFF;
+}
+
+.discount-inner{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: justify;
+
+  color: #FFFFFF;
+}
+
+.btn-discount{
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  border-radius: 86px;
+  padding: 16px 32px 16px 32px;
+}
+
+.btn-discount-inner{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+
+  color: white;
+}
+
 
 /* Кнопки соцсетей */
 .wrapper {
