@@ -63,37 +63,38 @@
       <div class="container h-100">
 
         <!-- Навигационная панель -->
-        <div class="navbar d-none d-md-flex align-items-center">
+        <div class="row d-none d-md-flex align-items-center py-2">
 
-          <h1><a href="" class="color-white">VETPET</a></h1>
-
-          <div class="nav">
-            
-            <div class="px-3">
-              <a href="" class="nav-line">Услуги</a>
-            </div>
-            <div class="px-3">
-              <a href="" class="nav-line">Врачи</a>
-            </div>
-            <div class="px-3">
-              <a href="" class="nav-line">О нас</a>
-            </div>
-            <div class="px-3">
-              <a href="reviews.html" class="nav-line">Отзывы</a>
-            </div>
-            <div class="px-3">
-              <a href="" class="nav-line">Вопросы</a>
-            </div>
-            <div class="px-3">
-              <a href="" class="nav-line">Контакты</a>
-            </div>
-
+          <div class="col-2 col-lg-1">
+          <h1><a href="#" class="color-white">VETPET</a></h1>
           </div>
 
-          <div class="phone_number d-flex align-content-center">
-            <i class="bi bi-telephone-fill color-white"></i>
-            <span class="color-white ps-2">+7 (383) 213-32-12</span>
+          <div class="col d-flex justify-content-center">
+            <div class="nav">
+              
+              <div class="px-3">
+                <a href="" class="nav-line">Услуги</a>
+              </div>
+              <div class="px-3">
+                <a href="" class="nav-line">Врачи</a>
+              </div>
+              <div class="px-3">
+                <a href="" class="nav-line">О нас</a>
+              </div>
+              <div class="px-3">
+                <a href="reviews.html" class="nav-line">Отзывы</a>
+              </div>
+              <div class="px-3">
+                <a href="" class="nav-line">Вопросы</a>
+              </div>
+              <div class="px-3">
+                <a href="" class="nav-line">Контакты</a>
+              </div>
+
+            </div>
           </div>
+
+          <div class="col-1"></div>
 
         </div>
 
@@ -101,15 +102,18 @@
         <div class="row ">
 
           <!-- Текст шапки -->
-          <div class="col-6 d-none d-md-flex align-items-center">
+          <div class="col-5 col-lg-6 d-flex align-items-center">
 
-            <div class="text-white text-intro">
+            <div class="text-white text-intro py-5">
               <p class="pb-2"><i class="bi bi-geo-alt-fill"></i> Новосибирск</p>
               <h2>Ветеринарная клиника</h2>
               <p class="pb-5">Кроглосуточная забота о ваших питомцах</p>
 
-              <button type="button" class="btn btn-appointment">Записаться на прием</button>
-              <button type="button" class="btn text-white">Вызвать врача</button>
+              <!-- Кнопки -->
+              <div class="d-flex d-md-block d-lg-flex align-items-center">
+                <button type="button" class="btn btn-appointment">Записаться на прием</button>
+                <div class="ps-5 pt-2 pt-lg-0"><a class="text-white" href="">+7 (383) 213-32-12</a></div>                 
+              </div>
 
             </div>
           
@@ -118,7 +122,7 @@
           <!-- Волна и собака -->
           <div class="col-md-6 col-12 d-flex justify-content-lg-end justify-content-center"> 
 
-            <img class="pt-4" src="./img/Dog.png" alt="sobaken">  
+            <img class="pt-4 d-none d-md-flex" src="./img/Dog.png" alt="sobaken">  
             <div class="wave"></div>
 
           </div>
