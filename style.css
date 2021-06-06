@@ -344,6 +344,13 @@ h2{
     font-size: 64px;
     line-height: 60px;
   }
-
 } 
 
+@media screen and (max-width: 991px){
+
+  h2{
+    font-size: 56px;
+    line-height: 60px;
+  }
+
+} 
