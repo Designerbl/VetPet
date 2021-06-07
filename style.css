@@ -421,6 +421,14 @@ h3{
   opacity: 0.7;
 }
 
+.feedback-input{
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+
+  padding: 20px;
+}
+
 .feedback-button{
   padding: 14px 100px 14px 100px;
   background: #FFFFFF;
