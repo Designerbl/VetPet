@@ -143,66 +143,86 @@
 
 
     <!-- Акции -->
-    <section class="container d-flex py-5">
-      <div class="row row-cols-1 row-cols-2 row-cols-xxl-3 g-4">
+    <section class="container d-flex justify-content-center py-5">
         
-        <!-- 1 -->
-        <div class="col d-flex justify-content-center">
-          <div class="card d-flex align-items-start flex-column">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
 
-            <div class="pb-4">
-              <p class="discount">20% скидка</p>
-              <p class="discount-inner">На первый набор всего необходимого питомцу</p>
+          <!-- 1 -->
+          <div class="carousel-item active">
+
+            <div class="d-flex justify-content-center">
+              <div class="card d-flex align-items-start flex-column">
+
+                <div class="pb-4">
+                  <p class="discount">20% скидка</p>
+                  <p class="discount-inner">На первый набор всего необходимого питомцу</p>
+                </div>
+
+                <div class="d-flex w-100 align-items-center justify-content-between">
+                  <button type="submit" class="btn-discount"><span class="btn-discount-inner">Подробнее об акции</span></button>
+                  <span class="color-white">до 16 июня</span>
+                </div>
+
+              </div>
             </div>
-
-            <div class="d-flex w-100 align-items-center justify-content-between">
-              <button type="submit" class="btn-discount"><span class="btn-discount-inner">Подробнее об акции</span></button>
-              <span class="color-white">до 16 июня</span>
-            </div>
-
           </div>
+
+          <!-- 2 -->            
+          <div class="carousel-item">
+
+            <div class="d-flex justify-content-center">
+              <div class="card d-flex align-items-start flex-column">
+                
+                <div class="pb-4">
+                  <p class="discount">Бесплатно</p>
+                  <p class="discount-inner">Обработаем вашего питомца от блох и клещей</p>
+                </div>
+
+                <div class="d-flex w-100 align-items-center justify-content-between">
+                  <button type="submit" class="btn-discount"><span class="btn-discount-inner">Подробнее об акции</span></button>
+                  <span class="color-white">до 1 сентября</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- 3 -->           
+          <div class="carousel-item">
+
+            <div class="d-flex justify-content-center">
+              <div class="card d-flex align-items-start flex-column">
+
+                <div class="pb-4">
+                  <p class="discount">10% скидка</p>
+                  <p class="discount-inner">На вакцинацию и чипирование домашних животных</p>
+                </div>
+
+                <div class="d-flex w-100 align-items-center justify-content-between">
+                  <button type="submit" class="btn-discount"><span class="btn-discount-inner">Подробнее об акции</span></button>
+                  <span class="color-white">до 20 июля</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          
         </div>
 
-        <!-- 2 -->
-        <div class="col d-flex justify-content-center">
-          <div class="card d-flex align-items-start flex-column">
-            
-            <div class="pb-4">
-              <p class="discount">Бесплатно</p>
-              <p class="discount-inner">Обработаем вашего питомца от блох и клещей</p>
-            </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
 
-            <div class="d-flex w-100 align-items-center justify-content-between">
-              <button type="submit" class="btn-discount"><span class="btn-discount-inner">Подробнее об акции</span></button>
-              <span class="color-white">до 1 сентября</span>
-            </div>
-
-          </div>
-        </div>
-
-        <!-- 3 -->
-        <div class="col col-12 d-flex justify-content-center">
-          <div class="card d-flex align-items-start flex-column">
-
-            <div class="pb-4">
-              <p class="discount">10% скидка</p>
-              <p class="discount-inner">На вакцинацию и чипирование домашних животных</p>
-            </div>
-
-            <div class="d-flex w-100 align-items-center justify-content-between">
-              <button type="submit" class="btn-discount"><span class="btn-discount-inner">Подробнее об акции</span></button>
-              <span class="color-white">до 20 июля</span>
-            </div>
-
-          </div>
-        </div>
-
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Следующий</span>
+        </button>
       </div>
+
     </section>
     
-
-
-
 
     <!-- Подвал -->
     <footer>

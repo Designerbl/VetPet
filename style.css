@@ -219,6 +219,10 @@ h3{
   max-width: 416px;
 }
 
+.carousel-item{}
+
+
+
 .discount{
   font-weight: bold;
   font-size: 36px;
@@ -409,6 +413,10 @@ h3{
     font-size: 48px;
     line-height: 50px;
   }
+
+} 
+
+@media screen and (max-width: 767px){
 
 } 
 
