@@ -353,7 +353,7 @@ h3{
   color: #ffffff;
 }
 
-/* Страница отзывов */
+/* ======Страница отзывов====== */
 .r-navbar-gackground{
   background-color: #0DBAF9;
 }
@@ -395,6 +395,28 @@ h3{
 
   display: flex;
   text-align: center;
+}
+
+.r-footer-background{
+  background-image: url(./img/R-footer-background.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  
+
+  height: 262px;
+  width: 100%;
+}
+
+.r-footer-inner{
+  background-color: transparent;
+}
+
+.copyright{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #FFFFFF;
 }
 
 
