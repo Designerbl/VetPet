@@ -28,7 +28,7 @@
 
         <!-- Кнопка вызова меню -->
         <div class="container d-flex justify-content-between align-items-center">
-          <h1><a href="#" class="color-white">VETPET</a></h1>
+          <h1><a href="index.html" class="color-white">VETPET</a></h1>
           <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-list text-white"></i></button>
         </div>
 
@@ -80,19 +80,19 @@
 
           <!-- Логотип -->
           <div class="col-2 col-lg-1">
-            <h1><a href="#" class="color-white">VETPET</a></h1>
+            <h1><a href="index.html" class="color-white">VETPET</a></h1>
           </div>
 
           <!-- Кнопки навигации -->
           <div class="col d-flex justify-content-center">
             <div class="nav">
               
-              <div class="px-3"><a href="" class="nav-line">Услуги</a></div>
-              <div class="px-3"><a href="" class="nav-line">Врачи</a></div>
-              <div class="px-3"><a href="" class="nav-line">О нас</a></div>
-              <div class="px-3"><a href="reviews.html" class="nav-line">Отзывы</a></div>
-              <div class="px-3"><a href="" class="nav-line">Вопросы</a></div>
-              <div class="px-3"><a href="" class="nav-line">Контакты</a></div>
+              <div class="px-3"><a href="#action" class="nav-line">Услуги</a></div>
+              <div class="px-3"><a href="#services" class="nav-line">Врачи</a></div>
+              <div class="px-3"><a href="#aboutclinic" class="nav-line">О нас</a></div>
+              <div class="px-3"><a href="#review" class="nav-line">Отзывы</a></div>
+              <div class="px-3"><a href="#question" class="nav-line">Вопросы</a></div>
+              <div class="px-3"><a href="#contact" class="nav-line">Контакты</a></div>
 
             </div>
           </div>
@@ -149,9 +149,8 @@
       </div>
     </section>
 
-
     <!-- Акции -->
-    <section class="container py-5">
+    <section id="action" class="container py-5">
 
       <div class="variable-width slider">
 
@@ -247,15 +246,13 @@
     </section>
 
     <!-- Услуги клиники -->
-    <section class="container py-5">
+    <section id="services" class="container py-5">
       <h6 class="text-center pb-5">Услуги клиники</h6>
     </section>
 
     <!-- О клинике -->
-    <section class="container py-5">
-
+    <section id="aboutclinic" class="container py-5">
       <h6 class="text-center pb-5">О клинике</h6>
-
       <div class="row d-flex align-items-center">
         <!-- Картинка -->        
         <div class="col-6 d-none d-lg-block px-5">
@@ -267,6 +264,7 @@
           <p class="description-text pb-3">«VETPET» – современная ветеринарная клиника, отвечающая строгим европейским стандартам. У нас есть собственная лаборатория, УЗИ, рентген, оснащенное всем необходимым хирургическое отделение. Наши сотрудники постоянно проходят курсы повышения квалификации, совершенствуют свои навыки, осваивают новые терапевтические, хирургические и диагностические методики. </p>
           <p class="description-text">Врачи нашей Ветеринарной клиники «VETPET» ответственно подходят к лечению каждого пациента, проводят все необходимые диагностические исследования и назначают лечение с учетом индивидуальных особенностей организма. Внимательное отношение, профессионализм и искренняя забота о здоровье ваших питомцев являются основополагающими принципами работы нашей клиники.</p>
         
+          <!-- Преимущества --> 
           <div class="row row-cols-1 row-cols-md-2  pt-3">
 
             <div class="col">
@@ -307,22 +305,56 @@
     </section>
 
     <!-- Команда врачей -->
-    <section class="container py-5">
+    <section id="doctors" class="container py-5">
       <h6 class="text-center pb-5">Команда врачей</h6>
     </section>
 
     <!-- Отзывы наших клиентов -->
-    <section class="container py-5">
+    <section id="review" class="container py-5">
       <h6 class="text-center pb-5">Отзывы наших клиентов</h6>
+
+      <!-- Пример отзыва 1 -->
+      <div class="review-card d-grid justify-content-center mb-4">
+
+        <div class="d-grid justify-content-center pb-3">
+          <span class="review-name">Ксения</span>
+        </div>
+        
+        <span class="review-text">Хочу поблагодарить персонал клиники и отдельно Ситникову Наталью за чуткое и доброе отношение к животным. 
+          Пользуюсь услугами клиники уже четыре года, за все время могу сказать только хорошее, животных действительно лечат!
+        </span>
+
+      </div>
+
+      <!-- Пример отзыва 2 -->
+      <div class="review-card d-grid justify-content-center mb-5">
+
+        <div class="d-grid justify-content-center pb-3">
+          <span class="review-name">Олег</span>
+        </div>
+        
+        <span class="review-text">Замечательная ветеринарная клиника VetPet! Доброжелательный, отзывчивый персонал. 
+          Всегда проконсультируют по телефону, нежели во многих других, стоит позвонить даже выслушать не хотят. Рекомендую, сразу приезжайте.
+        </span>
+
+      </div>
+
+      <!-- Кнопки -->
+      <div class="d-flex justify-content-center">
+        <button type="button" onClick='location.href="reviews.html#feedbackform"' class="btn btn-details">Оставить свой отзыв</button>     
+        <button type="button" onClick='location.href="reviews.html"'  class="btn ms-5">Другие отзывы</button>    
+      </div>
+
+
     </section>
 
     <!-- Вопросы и ответы -->
-    <section class="container py-5">
+    <section id="question" class="container py-5">
       <h6 class="text-center pb-5">Вопросы и ответы</h6>
     </section>
 
     <!-- Оставить заявку -->
-    <section class="container pb-5">
+    <section id="services" class="container pb-5">
       <div class="row d-flex align-items-center">
 
         <!-- Форма заполнения заявки -->
@@ -355,57 +387,62 @@
 
     <!-- Подвал -->
     <footer class="footer-background d-flex flex-column" id="footer">
+      <section id="contact" class="container">
+        
+        <h6 class="text-center py-5">Контакты</h6>
+        
+        <!-- Контакты -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 pb-5">
 
-      <section class="container">
-        
-        <h6 class="text-center">Контакты</h6>
-        
-        <div class="row contacts d-flex justify-content-center">
-          <div class="col-lg-2 d-flex align-items-center">
-            <img src="/img/i-bubble.png" alt=""><span class="contacts-inner">Новосибирск</span>
+          <!-- Местонахождение -->
+          <div class="col d-flex align-items-center justify-content-lg-center">
+            <i class="bi bi-geo-alt-fill"></i>
+            <span class="contacts-inner">Новосибирск</span>
           </div>
 
-          <div class="col-lg-3 d-flex align-items-center">
-            <img src="/img/i-clocks.png" alt=""><span class="contacts-inner">Круглосуточно</span>
+          <!-- Часы работы -->
+          <div class="col d-flex align-items-center justify-content-lg-center">
+            <i class="bi bi-clock-fill"></i>
+            <span class="contacts-inner">Круглосуточно</span>
           </div>
 
-          <div class="col-lg-2 d-flex align-items-center">
+          <!-- Номер телефона -->
+          <div class="col d-flex align-items-center justify-content-lg-center">
+            <i class="bi bi-telephone-fill"></i>
             <div class="phone_number d-flex align-content-center">
-              <img src="/img/i-phone.png" alt="">
               <span class="contacts-inner">+7 (383) 213-32-12</span>
             </div>
           </div>
 
-          <div class="col-lg-2 d-flex align-items-center">
-            <img src="/img/i-mail.png" alt=""><span class="contacts-inner">info@vetpetclinic.com</span>
+          <!-- Почта -->
+          <div class="col d-flex align-items-center justify-content-lg-center">
+            <i class="bi bi-envelope-fill"></i>
+            <span class="contacts-inner">info@vetpetclinic.com</span>
           </div>
           
         </div>
         
       </section>
       
-
+      <!-- Карта -->
       <div class="map container d-flex justify-content-center" id="map">
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2a5efd96a79fe1f7db584e48b12257d52308b4d70c1463e7a0656d74af5f2c7c&amp;width=1200&amp;height=550&amp;lang=ru_RU&amp;scroll=true"></script>
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2a5efd96a79fe1f7db584e48b12257d52308b4d70c1463e7a0656d74af5f2c7c&amp;width=100%&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
       </div>
 
-      <section class="container footer-inner2">
-        <div class="d-flex justify-content-between align-items-center">
+      <!-- Подвал -->
+      <section class="container py-4 py-lg-5">
+        <div class="d-block d-lg-flex justify-content-between align-items-center">
 
         <h1>VETPET</h1>
 
         <!-- Кнопки навигации -->
-        <div class="col d-flex justify-content-center">
-          <div class="nav">
-            
-            <div class="px-3"><a href="" class="nav-line">Услуги</a></div>
-            <div class="px-3"><a href="" class="nav-line">Врачи</a></div>
-            <div class="px-3"><a href="" class="nav-line">О нас</a></div>
-            <div class="px-3"><a href="reviews.html" class="nav-line">Отзывы</a></div>
-            <div class="px-3"><a href="" class="nav-line">Вопросы</a></div>
-            <div class="px-3"><a href="" class="nav-line">Контакты</a></div>
-
-          </div>
+        <div class="col d-lg-flex justify-content-lg-center py-3">
+          <div class="px-3"><a href="#action" class="nav-line">Услуги</a></div>
+          <div class="px-3"><a href="#services" class="nav-line">Врачи</a></div>
+          <div class="px-3"><a href="#aboutclinic" class="nav-line">О нас</a></div>
+          <div class="px-3"><a href="#review" class="nav-line">Отзывы</a></div>
+          <div class="px-3"><a href="#question" class="nav-line">Вопросы</a></div>
+          <div class="px-3"><a href="#contact" class="nav-line">Контакты</a></div>
         </div>
 
         <!-- Кнопки соцсетей -->
@@ -435,7 +472,7 @@
   <!-- JavaScript -->
   <script src="./libs/bootstrap-5.0.1-dist/js/bootstrap.min.js"></script>
   <script src="./libs/jquery.min.js"></script>
-  <script type="text/javascript" src="./libs/slick-1.8.1/slick.min.js"></script>
+  <script src="./libs/slick-1.8.1/slick.min.js"></script>
 
   <script>
 

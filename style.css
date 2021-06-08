@@ -270,7 +270,7 @@ margin: 0px 10px;
 }
 
 .slick-slide {
-transition: all ease-in-out .5s;
+transition: all ease-in-out .3s;
 opacity: .5;
 }
 
@@ -286,6 +286,16 @@ opacity: 1;
 /* ========================== О клинике */
 /* ========================== Команда врачей */
 /* ========================== Отзывы наших клиентов */
+
+.btn-details{
+  background-color: #1CA6F3;
+  border-radius: 50px;
+
+  line-height: 20px;
+
+  color: white;
+}
+
 /* ========================== Вопросы и ответы */
 /* ========================== Оставить заявку */
 .form-control{
@@ -303,7 +313,7 @@ opacity: 1;
   align-items: center;
 }
 
-/* Подвал */
+/* ========================= Подвал */
 .footer-background{
   background-image: url(./img/Footer-background2.png);
   background-repeat: no-repeat;
@@ -311,7 +321,7 @@ opacity: 1;
   
   position: relative;
 
-  height: 1120px;
+  height: auto;
   width: 100%;
 }
 
@@ -329,19 +339,21 @@ opacity: 1;
   color: #FFFFFF;
 }
 
+.bi-geo-alt-fill, .bi-clock-fill, .bi-telephone-fill, .bi-envelope-fill{
+  font-size: 24px;
+  
+  color: #1CA6F3;
+}
+
 /* Яндекс карта */
 #map > ymaps {
-  border-radius: 25px;
+  border-radius: 15px;
   overflow: hidden;
   }
 
 .map{
   filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.15));
   margin-top: auto;
-}
-
-.contacts{
-  margin-top: 100px;
 }
 
 .contacts-inner{
@@ -448,7 +460,7 @@ opacity: 1;
   color: #ffffff;
 }
 
-/* ======Страница отзывов====== */
+/* ====== Страница отзывов ====== */
 .r-navbar-gackground{
   background-color: #0DBAF9;
 }
@@ -471,9 +483,8 @@ opacity: 1;
   box-shadow: 4px 4px 10px rgba(13, 186, 249, 0.2);
   border-radius: 10px;
 
-  padding: 24px 94px 32px 94px;
-  margin: 0px 128px 32px 128px;
-  
+  padding: 32px 94px;
+  margin: 0px 10%;
 }
 
 .review-name{
@@ -579,6 +590,10 @@ opacity: 1;
   h2{
     font-size: 48px;
     line-height: 50px;
+  }
+
+  .review-card{
+    padding: 32px 64px;
   }
 
 } 
