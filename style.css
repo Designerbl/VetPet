@@ -59,6 +59,14 @@ h3{
   text-align: center;
 }
 
+h6{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 55px;
+  
+  color: #000000;
+}
+
 /* Кастомные марджины/паддинги */
 .mt-6{
   margin-top: 100px;
@@ -262,17 +270,18 @@ h3{
 
 /* Подвал */
 .footer-background{
-  background-image: url(./img/Footer-background.png);
+  background-image: url(./img/Footer-background2.png);
   background-repeat: no-repeat;
   background-position-x: center;
   
+  position: relative;
 
-  height: 701px;
+  height: 1120px;
   width: 100%;
 }
 
 .footer-inner2{
-  margin-top: auto;
+  margin-top: 100px;
   margin-bottom: 80px;
   background-color: transparent;
 }
@@ -284,6 +293,33 @@ h3{
 
   color: #FFFFFF;
 }
+
+/* Яндекс карта */
+#map > ymaps {
+  border-radius: 25px;
+  overflow: hidden;
+  }
+
+.map{
+  filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.15));
+  margin-top: auto;
+}
+
+.contacts{
+  margin-top: 100px;
+}
+
+.contacts-inner{
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 22px;
+
+  padding-left: 10px;
+}
+
+
+
+
 
 
 /* Кнопки соцсетей */
