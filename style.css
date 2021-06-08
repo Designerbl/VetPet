@@ -40,10 +40,8 @@ h1{
   transition: 0.4s;
 
   letter-spacing: 0.025em;
-}
 
-h1:hover{
-  transform: scale(1.1);
+  user-select: none;
 }
 
 h2{
@@ -339,7 +337,10 @@ opacity: 1;
   color: #FFFFFF;
 }
 
-.bi-geo-alt-fill, .bi-clock-fill, .bi-telephone-fill, .bi-envelope-fill{
+.bi-geo-alt-fill, 
+.bi-clock-fill, 
+.bi-telephone-fill, 
+.bi-envelope-fill{
   font-size: 18px;
 }
 
@@ -347,7 +348,7 @@ opacity: 1;
 #map > ymaps {
   border-radius: 15px;
   overflow: hidden;
-  }
+}
 
 .map{
   filter: drop-shadow(4px 4px 20px rgba(0, 0, 0, 0.15));
