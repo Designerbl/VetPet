@@ -270,8 +270,8 @@ margin: 0px 10px;
 }
 
 .slick-slide {
-transition: all ease-in-out .3s;
-opacity: .2;
+transition: all ease-in-out .5s;
+opacity: .5;
 }
 
 .slick-active {
