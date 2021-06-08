@@ -555,12 +555,8 @@ opacity: 1;
   background-repeat: no-repeat;
   background-position-x: center;
   
-  height: 262px;
+  height: auto;
   width: 100%;
-}
-
-.r-footer-inner{
-  background-color: transparent;
 }
 
 .copyright{
