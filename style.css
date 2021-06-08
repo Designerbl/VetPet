@@ -297,6 +297,12 @@ opacity: 1;
   text-align: justify;
 }
 
+.advantage{
+  display: flex;
+  padding: 16px 0;
+  align-items: center;
+}
+
 /* Подвал */
 .footer-background{
   background-image: url(./img/Footer-background2.png);
