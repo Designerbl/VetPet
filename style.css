@@ -86,7 +86,7 @@ h6{
   color: #00BBFF;
 }
 
-/* --------------------------- Шапка */
+/* ========================== Шапка */
 .header-background{
   background-image: url(./img/Background-background.png);
   background-repeat: no-repeat;
@@ -142,7 +142,7 @@ h6{
   line-height: 3px;
 }
 
-/* --------------------- Тело сайта */
+/* ========================== Тело сайта */
 /* Иконка скролла */
 .icon-scroll {
   margin-left: auto;
@@ -221,7 +221,7 @@ h6{
   100% { opacity: 1; }
 }
 
-/* ------------------------ Акции */
+/* ========================== Акции */
 /* Карточка с акцией */
 .card{
   background: linear-gradient(116.59deg, #0DBAF9 0%, #38CAFF 100%);
@@ -282,6 +282,21 @@ opacity: .5;
 opacity: 1;
 }
 
+/* ========================== Услуги клиники */
+/* ========================== О клинике */
+/* ========================== Команда врачей */
+/* ========================== Отзывы наших клиентов */
+/* ========================== Вопросы и ответы */
+/* ========================== Оставить заявку */
+.form-control{
+  padding: 16px;
+  border-radius: 5px;
+}
+
+.description-text{
+  text-align: justify;
+}
+
 /* Подвал */
 .footer-background{
   background-image: url(./img/Footer-background2.png);
@@ -330,11 +345,6 @@ opacity: 1;
 
   padding-left: 10px;
 }
-
-
-
-
-
 
 /* Кнопки соцсетей */
 .wrapper {
@@ -481,7 +491,7 @@ opacity: 1;
   background: #0DBAF9;
   border-radius: 15px;
 
-  padding: 64px;
+  padding: 48px;
 }
 
 .feedback-caption{
@@ -530,7 +540,6 @@ opacity: 1;
   background-repeat: no-repeat;
   background-position-x: center;
   
-
   height: 262px;
   width: 100%;
 }
