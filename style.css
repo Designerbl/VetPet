@@ -337,6 +337,7 @@ opacity: 1;
   color: #FFFFFF;
 }
 
+/* BS иконки */
 .bi-geo-alt-fill, 
 .bi-clock-fill, 
 .bi-telephone-fill, 
@@ -500,6 +501,24 @@ opacity: 1;
 
   display: flex;
   text-align: center;
+}
+
+.review-text::before{
+  content: "«";
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 74px;
+
+  color: #1DA7F4;
+}
+
+.review-text::after{
+  content: "»";
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 74px;
+
+  color: #1DA7F4;
 }
 
 /* Блок отправки отзыва */
