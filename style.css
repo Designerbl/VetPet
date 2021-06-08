@@ -232,10 +232,6 @@ h6{
   min-height: 250px;
 }
 
-.carousel-item{}
-
-
-
 .discount{
   font-weight: bold;
   font-size: 36px;
@@ -267,6 +263,23 @@ h6{
   line-height: 20px;
 
   color: white;
+}
+
+.slick-slide {
+margin: 0px 10px;
+}
+
+.slick-slide {
+transition: all ease-in-out .3s;
+opacity: .2;
+}
+
+.slick-active {
+opacity: .5;
+}
+
+.slick-current {
+opacity: 1;
 }
 
 /* Подвал */

@@ -13,6 +13,10 @@
   <link rel="stylesheet" href="./libs/OwlCarousel2-2.3.4/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="./libs/OwlCarousel2-2.3.4/assets/owl.theme.default.min.css">  
  
+  <!-- Stick -->
+  <link rel="stylesheet" type="text/css" href="./libs/slick-1.8.1/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="./libs/slick-1.8.1/slick-theme.css"/>
+
   <!-- Stylesheets -->
   <link rel="stylesheet" href="./style.css"/>
   <script src="https://kit.fontawesome.com/bab5cae328.js" crossorigin="anonymous"></script>
@@ -151,9 +155,11 @@
 
 
     <!-- Акции -->
-    <section class="container d-flex justify-content-center py-5">
-  
-      <div class="nonloop owl-carousel">
+    <section class="container py-5">
+
+
+      
+      <div class="center slider">
 
         <!-- 1 -->
         <div class="d-flex justify-content-center">
@@ -206,7 +212,7 @@
           </div>
         </div>
       
-        <!-- 1 -->
+        <!-- 4 -->
         <div class="d-flex justify-content-center">
           <div class="card d-flex align-items-start flex-column">
 
@@ -218,7 +224,25 @@
 
             <div class="d-flex w-100 align-items-center justify-content-between">
               <button type="submit" class="btn-discount"><span class="btn-discount-inner">Подробнее об акции</span></button>
-              <span class="color-white">до 16 июня</span>
+              <span class="color-white">до 30 июня</span>
+            </div>
+
+          </div>
+        </div>
+              
+        <!-- 5 -->
+        <div class="d-flex justify-content-center">
+          <div class="card d-flex align-items-start flex-column">
+
+            <div class="pb-4">
+              <p class="discount">Test 2</p>
+              <p class="discount-inner">Test test test</p>
+              <p class="discount-inner">Test test test</p>
+            </div>
+
+            <div class="d-flex w-100 align-items-center justify-content-between">
+              <button type="submit" class="btn-discount"><span class="btn-discount-inner">Подробнее об акции</span></button>
+              <span class="color-white">до 24 июня</span>
             </div>
 
           </div>
@@ -309,18 +333,42 @@
 
   <!-- JavaScript -->
   <script src="./libs/bootstrap-5.0.1-dist/js/bootstrap.min.js"></script>
-  <script src="./libs/OwlCarousel2-2.3.4/jquery.min.js"></script>
+  <script src="./libs/jquery.min.js"></script>
   <script src="./libs/OwlCarousel2-2.3.4/owl.carousel.js"></script>
+  <script type="text/javascript" src="./libs/slick-1.8.1/slick.min.js"></script>
 
   <script>
-    $(function() {
-      $('.nonloop').owlCarousel({
-        items: 8,
-        loop:  true,
-        autoWidth:true,
-        margin: 40
+
+    $(document).ready(function(){
+      $(function() {
+        $('.center').slick({
+          centerMode: true,
+          centerPadding: '24px',
+          slidesToShow: 3,
+          responsive: [
+          {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 3
+            }
+          },
+          {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+            }
+          }
+          ]
+        });
       });
     });
+
   </script>
 </body>
 
