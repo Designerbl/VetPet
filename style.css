@@ -341,8 +341,6 @@ opacity: 1;
 
 .bi-geo-alt-fill, .bi-clock-fill, .bi-telephone-fill, .bi-envelope-fill{
   font-size: 24px;
-  
-  color: #1CA6F3;
 }
 
 /* Яндекс карта */
@@ -572,9 +570,6 @@ opacity: 1;
 
   color: #FFFFFF;
 }
-
-
-
 
 /* Адаптация */
 @media screen and (max-width: 1199px){
