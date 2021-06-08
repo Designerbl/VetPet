@@ -260,6 +260,31 @@ h3{
   color: white;
 }
 
+/* Подвал */
+.footer-background{
+  background-image: url(./img/Footer-background.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  
+
+  height: 701px;
+  width: 100%;
+}
+
+.footer-inner2{
+  margin-top: auto;
+  margin-bottom: 80px;
+  background-color: transparent;
+}
+
+.copyright2{
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 13px;
+
+  color: #FFFFFF;
+}
+
 
 /* Кнопки соцсетей */
 .wrapper {
@@ -332,7 +357,7 @@ h3{
 .wrapper .twitter:hover,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
-  background-color: #46c1f6;
+  background-color: #6a3ce7;
   color: #ffffff;
 }
 
@@ -449,7 +474,7 @@ h3{
 }
 
 
-/* Подвал */
+/* Подвал страницы отзывов */
 .r-footer-background{
   background-image: url(./img/R-footer-background.png);
   background-repeat: no-repeat;
