@@ -228,7 +228,8 @@ h6{
   border-radius: 10px;
   padding: 32px;
 
-  max-width: 416px;
+  width: 416px;
+  min-height: 250px;
 }
 
 .carousel-item{}
