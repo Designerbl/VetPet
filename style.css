@@ -310,6 +310,36 @@ margin: 0px 12px;
 }
 
 /* ========================== Вопросы и ответы */
+.question-card{
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  padding: 64px;
+  text-align: center;
+}
+
+.question-text{
+  font-weight: bold;
+  font-size: 24px;
+  padding-bottom: 24px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  font-weight: bold;
+  font-size: 20px;
+
+  color: #1CA6F3;
+  background-color: #FFFFFF;
+}
+
+.nav-pills .nav-link {
+  color: #BABABA;
+
+  font-weight: bold;
+
+  transition: all 0.5s
+}
+
 /* ========================== Оставить заявку */
 .form-control{
   padding: 16px;
@@ -608,6 +638,10 @@ margin: 0px 12px;
     font-size: 64px;
     line-height: 60px;
   }
+
+  .question-card{
+    padding: 32px;
+  }  
 } 
 
 @media screen and (max-width: 991px){
@@ -621,6 +655,9 @@ margin: 0px 12px;
     padding: 32px 64px;
   }
 
+  .question-card{
+    padding: 24px;
+  }  
 } 
 
 @media screen and (max-width: 767px){

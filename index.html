@@ -629,14 +629,98 @@
     </section>
 
     <!-- Вопросы и ответы -->
-    <section id="question" class="container py-5">
+    <section id="question" class="container py-5 d-none d-lg-block">
       <h6 class="text-center pb-5">Вопросы и ответы</h6>
 
       <!-- https://bootstrap-4.ru/docs/5.0/components/list-group/#javascript-behavior -->
+
+      <div class="row">
+
+        <!-- Список вопросов -->
+        <div class="col nav d flex-column nav-pills align-items-center justify-content-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <button class="nav-link active py-4" id="question-1-tab" data-bs-toggle="pill" data-bs-target="#question-1" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Принимаете ли экзотических животных?</button>
+          <button class="nav-link py-4" id="question-2-tab" data-bs-toggle="pill" data-bs-target="#question-2" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Нужен ветпаспорт для обслуживания?</button>
+          <button class="nav-link py-4" id="question-3-tab" data-bs-toggle="pill" data-bs-target="#question-3" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Можно сделать бесплатные прививки?</button>
+          <button class="nav-link py-4" id="question-4-tab" data-bs-toggle="pill" data-bs-target="#question-4" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Оформляете справки для переезда?</button>
+          <button class="nav-link py-4" id="question-5-tab" data-bs-toggle="pill" data-bs-target="#question-5" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Есть услуги инструктора по вязке?</button>
+          <button class="nav-link py-4" id="question-6-tab" data-bs-toggle="pill" data-bs-target="#question-6" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Можно оставить животное на передержку?</button>
+        </div>
+
+        <!-- Карточки ответов -->
+        <div class="col tab-content mx-3" id="v-pills-tabContent">
+
+          <!-- Вопрос 1. Принимаете ли экзотических животных? -->
+          <div class="tab-pane fade show active" id="question-1" role="tabpanel" aria-labelledby="question-1-tab">
+            <div class="question-card">
+              <p class="question-text">Принимаете ли экзотических животных?</p>
+              <p class="pb-3 color-grey">Паспорт оформляется в ветклинике одновременно с проведением первой вакцинации животного.
+                В случае отсутствия паспорта, персонал клиники предложит оформление документов.</p>
+              <p class="pb-3 color-grey">Дополнительная информация по оформлению ветеринарного паспорта по телефону.</p>
+              <img class="img-fluid rounded mx-auto d-block" src="./img/kot.png" alt="">
+            </div>
+          </div>
+
+          <!-- Вопрос 2. Нужен ветпаспорт для обслуживания? -->
+          <div class="tab-pane fade" id="question-2" role="tabpanel" aria-labelledby="question-2-tab">
+            <div class="question-card">
+              <p class="question-text">Нужен ветпаспорт для обслуживания?</p>
+              <p class="pb-3 color-grey">Паспорт оформляется в ветклинике одновременно с проведением первой вакцинации животного.
+                В случае отсутствия паспорта, персонал клиники предложит оформление документов.</p>
+              <p class="pb-3 color-grey">Дополнительная информация по оформлению ветеринарного паспорта по телефону.</p>
+              <img class="img-fluid rounded mx-auto d-block" src="./img/kot.png" alt="">
+            </div>
+          </div>
+
+          <!-- Вопрос 3. Можно сделать бесплатные прививки? -->
+          <div class="tab-pane fade" id="question-3" role="tabpanel" aria-labelledby="question-3-tab">
+            <div class="question-card">
+              <p class="question-text">Можно сделать бесплатные прививки?</p>
+              <p class="pb-3 color-grey">Паспорт оформляется в ветклинике одновременно с проведением первой вакцинации животного.
+                В случае отсутствия паспорта, персонал клиники предложит оформление документов.</p>
+              <p class="pb-3 color-grey">Дополнительная информация по оформлению ветеринарного паспорта по телефону.</p>
+              <img class="img-fluid rounded mx-auto d-block" src="./img/kot.png" alt="">
+            </div>
+          </div>
+
+          <!-- Вопрос 4. Оформляете справки для переезда? -->
+          <div class="tab-pane fade" id="question-4" role="tabpanel" aria-labelledby="question-4-tab">
+            <div class="question-card">
+              <p class="question-text">Оформляете справки для переезда?</p>
+              <p class="pb-3 color-grey">Паспорт оформляется в ветклинике одновременно с проведением первой вакцинации животного.
+                В случае отсутствия паспорта, персонал клиники предложит оформление документов.</p>
+              <p class="pb-3 color-grey">Дополнительная информация по оформлению ветеринарного паспорта по телефону.</p>
+              <img class="img-fluid rounded mx-auto d-block" src="./img/kot.png" alt="">
+            </div>
+          </div>
+
+          <!-- Вопрос 5. Есть услуги инструктора по вязке? -->
+          <div class="tab-pane fade" id="question-5" role="tabpanel" aria-labelledby="question-5-tab">
+            <div class="question-card">
+              <p class="question-text">Есть услуги инструктора по вязке?</p>
+              <p class="pb-3 color-grey">Паспорт оформляется в ветклинике одновременно с проведением первой вакцинации животного.
+                В случае отсутствия паспорта, персонал клиники предложит оформление документов.</p>
+              <p class="pb-3 color-grey">Дополнительная информация по оформлению ветеринарного паспорта по телефону.</p>
+              <img class="img-fluid rounded mx-auto d-block" src="./img/kot.png" alt="">
+            </div>
+          </div>
+
+          <!-- Вопрос 6. Можно оставить животное на передержку? -->
+          <div class="tab-pane fade" id="question-6" role="tabpanel" aria-labelledby="question-6-tab">
+            <div class="question-card">
+              <p class="question-text">Можно оставить животное на передержку?</p>
+              <p class="pb-3 color-grey">Паспорт оформляется в ветклинике одновременно с проведением первой вакцинации животного.
+                В случае отсутствия паспорта, персонал клиники предложит оформление документов.</p>
+              <p class="pb-3 color-grey">Дополнительная информация по оформлению ветеринарного паспорта по телефону.</p>
+              <img class="img-fluid rounded mx-auto d-block" src="./img/kot.png" alt="">
+            </div>
+          </div>
+          
+        </div>
+      </div>
     </section>
 
     <!-- Оставить заявку -->
-    <section id="services" class="container pb-5">
+    <section id="services" class="container py-5">
       <div class="row d-flex align-items-center">
 
         <!-- Форма заполнения заявки -->
